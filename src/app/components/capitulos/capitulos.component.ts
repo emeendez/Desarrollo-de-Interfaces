@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { AppRestService } from 'src/app/services/app-rest.service';
 import { capitulosDTO, personajesDTO, personajes2DTO } from '../../appListados/app.listados';
 import { Router } from '@angular/router';
-import { stringify } from 'querystring';
 
 
 @Component({
